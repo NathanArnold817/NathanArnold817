@@ -1,0 +1,12 @@
+h1 {
+    font-size: 88px;
+    text-align: center;
+    padding-top: 20px;
+   color: rgb(133, 145, 156);
+}
+body{
+    background-image: url(./assets/Background.jpg);
+}
+img {
+    position: 250px;
+}
