@@ -1,12 +1,44 @@
-h1 {
-    font-size: 88px;
+.name{
+    font-size: 98px;
     text-align: center;
     padding-top: 20px;
-   color: rgb(133, 145, 156);
+    color: silver;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgba(3, 3, 141, 0.719);
 }
 body{
-    background-image: url(./assets/Background.jpg);
+    background-image: url(https://media.giphy.com/media/Uqw7f8I9UDiuE2tu1H/giphy.gif);
 }
-img {
-    position: 250px;
+.headshot{
+    display: inline-block;
+   position: relative; 
+   margin:-50px 0 0 175px;
+}
+.aboutme{
+    width: 40%;
+    color: silver;
+}
+.headline{
+    text-align: center;
+    font-weight: bold;
+    color:white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+}
+.projects{
+    display: inline-block;
+    background: url("https://media.giphy.com/media/xI6mXnBfsRD0uVDveG/giphy.gif");
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-size: 80px;
+}
+.certs{
+    display:inline-block;
+    background: url("https://media.giphy.com/media/xI6mXnBfsRD0uVDveG/giphy.gif");
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-size: 65px;
+}
+.certimage{
+
 }
