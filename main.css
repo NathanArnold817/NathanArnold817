@@ -7,10 +7,10 @@
     -webkit-text-stroke-color: rgba(3, 3, 141, 0.719);
 }
 body{
-    /* background-image: url(https://media.giphy.com/media/Uqw7f8I9UDiuE2tu1H/giphy.gif); */
+    background-image: url(https://media.giphy.com/media/Uqw7f8I9UDiuE2tu1H/giphy.gif);
     /* background-image: url("https://www.desktopbackground.org/download/1366x768/2010/11/16/112155_wallpaper-backgrounds-super-professional-technology-desktop_1600x1200_h.jpg"); */
     /* background-image: url("./assets/Background.jpg"); */
-    background-image: url("https://pe.gatech.edu/sites/default/files/styles/focal_point_full_width_1900x930/public/news/fintech-blog-header-1900x930.jpg?itok=1UFQIDWe");
+    /* background-image: url("https://pe.gatech.edu/sites/default/files/styles/focal_point_full_width_1900x930/public/news/fintech-blog-header-1900x930.jpg?itok=1UFQIDWe"); */
 }
 .headshot{
     display: inline-block;
@@ -20,7 +20,8 @@ body{
 }
 .aboutme{
     width: 40%;
-    color: silver;
+    text-align: center;
+    color: lightsteelblue;
 }
 .headline{
     text-align: center;
@@ -68,9 +69,17 @@ body{
     width: 35%;
     /* background-color: lightcoral; */
 }
-.aboutme{
-    background-image: url("./assets/Background.jpg");
+
+.email{
+    background-color: lightsalmon;
+    width: 56%;
 }
+.iprojects{
+    max-width: 8%;
+    background: violet;
+    margin:-200px 0 0 0;
+}
+
 	
 
 		
