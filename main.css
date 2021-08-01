@@ -7,8 +7,6 @@
     -webkit-text-stroke-color: rgba(3, 3, 141, 0.719);
 }
 body{
-    width: 100%;
-    height: auto;
     /* background-image: url("https://www.desktopbackground.org/download/1366x768/2010/11/16/112155_wallpaper-backgrounds-super-professional-technology-desktop_1600x1200_h.jpg"); */
     background-image: url("./assets/Background.jpg");
     /* background-image: url("https://pe.gatech.edu/sites/default/files/styles/focal_point_full_width_1900x930/public/news/fintech-blog-header-1900x930.jpg?itok=1UFQIDWe"); */
@@ -16,9 +14,6 @@ body{
 .headshot{
     text-align: center;
     margin-top: 150px;
-   /* position: relative; 
-   margin:-250px 0 0 430px;
-   border-top: 60px; */
 }
 .aboutme{
     width: 40%;
@@ -33,7 +28,6 @@ body{
     -webkit-text-stroke-color: red;
 }
 .projects{
-    /* margin: 200px 0 0 0;  */
     display: inline-block;
     font-family: 'Ubuntu', sans-serif;
     font-size: 70px;
@@ -47,9 +41,8 @@ body{
 }
 
 .certs{
-    position: relative;
-    display: inline-block;
     font-size: 65px;
+    font-weight: bold;
     text-shadow: 0 1px 6px #ccc, 
                0 2px 0 #c9c9c9,
                0 3px 0 #bbb,
@@ -62,14 +55,12 @@ body{
                0 5px 10px rgba(0,0,0,.25),
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
-               position: relative;
-               margin: -220px 0 0 775px;
+               margin: -180px 0 0 775px;
 }
 .colorbg{
     position: relative;
     right: -775px;
     width: 35%;
-    /* background-color: lightcoral; */
 }
 .email{
     position: relative;
