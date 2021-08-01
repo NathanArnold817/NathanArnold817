@@ -12,12 +12,13 @@ body{
     /* background-image: url("https://pe.gatech.edu/sites/default/files/styles/focal_point_full_width_1900x930/public/news/fintech-blog-header-1900x930.jpg?itok=1UFQIDWe"); */
 }
 .headshot{
-    text-align: center;
+    display: inline-block;
     margin-top: 150px;
+    margin-left: 50px;
 }
 .aboutme{
-    width: 40%;
-    text-align: center;
+    display: inline-block;
+    width: 30%;
     color: lightsteelblue;
 }
 .headline{
@@ -41,6 +42,7 @@ body{
 }
 
 .certs{
+    display: inline-block;
     font-size: 65px;
     font-weight: bold;
     text-shadow: 0 1px 6px #ccc, 
@@ -55,28 +57,29 @@ body{
                0 5px 10px rgba(0,0,0,.25),
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
-               margin: -180px 0 0 775px;
+               /* margin: -180px 0 0 775px; */
+               margin-left: 330px;
 }
-.colorbg{
+/* .colorbg{
     position: relative;
     right: -775px;
     width: 35%;
-}
+} */
 .email{
     position: relative;
     margin: 200px 0 0 0;
     background-color: lightsalmon;
     width: 56%;
 }
-/* .iprojects{
-    background-color: purple;
-} */
+.iprojects{
+    width: 15%;
+}
 #P3{
     background: whitesmoke
 }
 #P4{
     background: whitesmoke;
 }
-	
+
 
 		
