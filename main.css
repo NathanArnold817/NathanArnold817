@@ -9,15 +9,16 @@
 body{
     width: 100%;
     height: auto;
-    background-image: url(https://media.giphy.com/media/Uqw7f8I9UDiuE2tu1H/giphy.gif);
     /* background-image: url("https://www.desktopbackground.org/download/1366x768/2010/11/16/112155_wallpaper-backgrounds-super-professional-technology-desktop_1600x1200_h.jpg"); */
-    /* background-image: url("./assets/Background.jpg"); */
+    background-image: url("./assets/Background.jpg");
     /* background-image: url("https://pe.gatech.edu/sites/default/files/styles/focal_point_full_width_1900x930/public/news/fintech-blog-header-1900x930.jpg?itok=1UFQIDWe"); */
 }
 .headshot{
-   position: relative; 
-   margin:-250px 0 0 460px;
-   border-top: 60px;
+    text-align: center;
+    margin-top: 150px;
+   /* position: relative; 
+   margin:-250px 0 0 430px;
+   border-top: 60px; */
 }
 .aboutme{
     width: 40%;
@@ -32,6 +33,8 @@ body{
     -webkit-text-stroke-color: red;
 }
 .projects{
+    /* margin: 200px 0 0 0;  */
+    display: inline-block;
     font-family: 'Ubuntu', sans-serif;
     font-size: 70px;
     font-weight: bold;
@@ -44,9 +47,8 @@ body{
 }
 
 .certs{
-    /* background: url("https://media.giphy.com/media/xI6mXnBfsRD0uVDveG/giphy.gif");
-    background-clip: text;
-    -webkit-text-fill-color:transparent; */
+    position: relative;
+    display: inline-block;
     font-size: 65px;
     text-shadow: 0 1px 6px #ccc, 
                0 2px 0 #c9c9c9,
@@ -61,23 +63,29 @@ body{
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
                position: relative;
-               margin: -220px 0 0 850px;
+               margin: -220px 0 0 775px;
 }
 .colorbg{
     position: relative;
-    right: -850px;
+    right: -775px;
     width: 35%;
     /* background-color: lightcoral; */
 }
 .email{
+    position: relative;
+    margin: 200px 0 0 0;
     background-color: lightsalmon;
     width: 56%;
 }
-.iprojects{
-    max-width: 20%;
+/* .iprojects{
+    background-color: purple;
+} */
+#P3{
+    background: whitesmoke
+}
+#P4{
     background: whitesmoke;
 }
-
 	
 
 		
