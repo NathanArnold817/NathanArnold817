@@ -58,8 +58,8 @@ body{
     height: 400px;
 }
 .dev{
-    display: inline;
-    text-align: left;
+    flex-wrap: wrap;
+    display: inline-block;
     font-size: 80px;
     font-weight: 800;
     background-image: url(./assets/metallicbg.jpg);
@@ -68,7 +68,13 @@ body{
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: White;
 }
-.dev2{
+#dev1{
+    text-align: left;
+    display: inline;
+    float: right;
+    margin-right: 230px;
+}
+/* .dev2{
     display: inline-block;
     float: right;
     background-repeat: repeat;
@@ -79,10 +85,13 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: White;
-}
+    -webkit-text-stroke-color: White; }*/
+
 .info{
-    display: inline-block;
+    position: relative;
+    margin: -300px 180px 0 0;
+    /* flex-wrap:wrap; */
+    display: inline-flex;
     font-size: 60px;
     font-weight: 700;
     background-image: url(./assets/metallictext.jpg);
@@ -91,7 +100,12 @@ body{
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: limegreen;
 }
-.info2{
+#info1{
+    display: inline;
+    float: right;
+    /* margin-right: 160px; */
+}
+/* .info2{
     margin-right: -460px ;
     display: inline-block;
     float: right;
@@ -104,7 +118,7 @@ body{
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
     text-shadow: 3px 3px 3px limegreen;
-}
+} */
 
 .nav{
     background-color: black;
@@ -211,3 +225,4 @@ body{
         width:600px;
         height:auto;
     }
+    
