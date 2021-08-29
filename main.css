@@ -57,7 +57,7 @@ body{
     width: 32%;
     height: 400px;
 }
-.dev{
+.title{
     flex-wrap: wrap;
     display: inline-block;
     font-size: 80px;
@@ -68,48 +68,9 @@ body{
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: White;
 }
-#dev1{
-    text-align: left;
-    display: inline;
-    float: right;
-    margin-right: 230px;
-}
-/* .dev2{
+.tools{
+    flex-wrap:wrap;
     display: inline-block;
-    float: right;
-    background-repeat: repeat;
-    margin-right: 250px;
-    font-size: 90px;
-    font-weight: 800;
-    background-image: url(./assets/metallicbg.jpg);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: White; }*/
-
-.info{
-    position: relative;
-    margin: -300px 180px 0 0;
-    /* flex-wrap:wrap; */
-    display: inline-flex;
-    font-size: 60px;
-    font-weight: 700;
-    background-image: url(./assets/metallictext.jpg);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: limegreen;
-}
-#info1{
-    display: inline;
-    float: right;
-    /* margin-right: 160px; */
-}
-/* .info2{
-    margin-right: -460px ;
-    display: inline-block;
-    float: right;
-    text-align: left;
     font-size: 60px;
     font-weight: 700;
     background-image: url(./assets/metallictext.jpg);
@@ -117,8 +78,18 @@ body{
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
-    text-shadow: 3px 3px 3px limegreen;
-} */
+}
+
+.title-dev{
+    float: right;
+    margin-right: 230px;
+}
+
+.tools-dev{
+    display: inline;
+    float: right;
+    margin-right: 160px;
+}
 
 .nav{
     background-color: black;
@@ -200,16 +171,15 @@ body{
       background-image: url("./assets/computer.jpg");
       background-repeat: no-repeat;
       background-size: 100%;
-      /* background:lightskyblue; */
     }
   #b3{
       background-image: url("./assets/alaska.png");
       background-repeat: no-repeat;
       background-size: 100%;
     }
-    .color{
+    .about{
         position: relative;
-        text-align: center;
+        text-align: left;
         width: 450px;
         height:auto;
         background:coral;
