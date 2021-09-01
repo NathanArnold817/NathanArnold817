@@ -1,11 +1,14 @@
 body{
     background-image: url("./assets/Background.jpg");
 }
+#b11{
+    flex-shrink: 3;
+}
 .aboutme{
-    text-align: center;
+    text-align: left;
     /* https://markdotto.com/playground/3d-text/ */
     font-weight:800;
-    font-size: 55px;
+    font-size: 5em;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: turquoise;
     text-shadow: 0 1px 0 #ccc,
@@ -195,4 +198,5 @@ body{
         width:600px;
         height:auto;
     }
+
     
